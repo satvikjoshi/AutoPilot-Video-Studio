@@ -29,6 +29,6 @@ def extract_audio(video_path, output_audio_path):
 
 # Example usage (for testing purposes)
 if __name__ == "__main__":
-    input_video = "data/input/edit1.mp4"
+    input_video = "data/input/sample.mp4"
     output_audio = "data/output/sample_audio.wav"
     extract_audio(input_video, output_audio)

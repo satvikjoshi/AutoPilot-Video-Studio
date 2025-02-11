@@ -1,4 +1,4 @@
-from moviepy import VideoFileClip
+from moviepy import VideoFileClip as mp
 
 
 def trim_video(input_path, output_path, start_time, end_time):
@@ -31,7 +31,7 @@ def trim_video(input_path, output_path, start_time, end_time):
 
 # Example usage (for testing)
 if __name__ == "__main__":
-    input_video = "data/input/edit1.mp4"
+    input_video = "data/input/sample.mp4"
     trimmed_video = "data/output/trimmed.mp4"
     
     # Trim from 5 seconds to 15 seconds
