@@ -1,0 +1,46 @@
+# Core AI & Machine Learning
+torch
+torchvision
+torchaudio
+tensorflow
+numpy
+scipy
+pandas
+matplotlib
+opencv-python
+
+# AI Video Processing
+ffmpeg
+moviepy
+imageio[ffmpeg]
+decord
+
+# AI Audio Processing
+librosa
+pydub
+wave
+soundfile
+torchaudio
+faster-whisper
+
+# AI Text Processing (For Voice Cloning & Analysis)
+transformers
+sentencepiece
+datasets
+
+# AI TTS (Text-to-Speech)
+nemo_toolkit['tts']
+CoquiTTS
+xtts
+
+# UI & User Experience
+gradio
+tkinter
+pyqt5
+
+# Misc Tools
+tqdm
+requests
+pillow
+pyyaml
+ 
