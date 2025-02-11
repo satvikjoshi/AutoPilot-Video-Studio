@@ -1,4 +1,5 @@
-import moviepy.editor as mp
+from moviepy import VideoFileClip as mp
+
 
 def merge_videos(video_paths, output_path):
     """
