@@ -1,5 +1,4 @@
-from moviepy import VideoFileClip as mp
-
+import moviepy.editor as mp
 
 def trim_video(input_path, output_path, start_time, end_time):
     """

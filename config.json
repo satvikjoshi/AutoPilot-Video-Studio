@@ -1,1 +1,16 @@
- 
+{
+    "video_settings": {
+        "default_resolution": "1080p",
+        "frame_rate": 30,
+        "bitrate": "5000k"
+    },
+    "audio_settings": {
+        "tts_enabled": false,
+        "default_voice": "ai_female"
+    },
+    "ai_learning": {
+        "enable_learning": true,
+        "max_past_edits": 10
+    }
+}
+

@@ -1,4 +1,4 @@
-from moviepy import VideoFileClip as mp
+import moviepy.editor as mp
 import os
 
 def extract_audio(video_path, output_audio_path):
