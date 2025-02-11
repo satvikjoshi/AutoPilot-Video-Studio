@@ -2,7 +2,7 @@
 torch
 torchvision
 torchaudio
-tensorflow
+# tensorflow
 numpy
 scipy
 pandas
@@ -25,16 +25,16 @@ faster-whisper
 
 # AI Text Processing (For Voice Cloning & Analysis)
 transformers
-sentencepiece
+# sentencepiece
 datasets
 
 # AI TTS (Text-to-Speech)
-nemo_toolkit['tts']
-CoquiTTS
-xtts
+# nemo_toolkit['tts']
+# CoquiTTS
+# xtts
 
 # UI & User Experience
-gradio
+# gradio
 tkinter
 pyqt5
 
@@ -43,4 +43,4 @@ tqdm
 requests
 pillow
 pyyaml
- 
+
