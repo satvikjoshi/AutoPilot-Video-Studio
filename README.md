@@ -48,3 +48,48 @@ AutoPilot-Video-Studio/
 ├── README.md                # Documentation
 └── main.py                  # Program entry point
 
+Since Python 3.13 is still in development preview and not widely supported, it’s best to downgrade to a stable version.
+
+✅ Recommended Version: Python 3.10.13
+Why? Most AI/ML frameworks (PyTorch, TensorFlow, SpeechBrain, etc.) are optimized for Python 3.8 - 3.10.
+Better compatibility with libraries like:
+    SentencePiece
+    SpeechBrain
+    NeMo
+    FFmpeg, OpenCV, NumPy
+    PyTorch CUDA support
+
+🔥 Step-by-Step Setup on Your New PC
+1️⃣ Install Python 3.10.13
+
+    Download from: Python 3.10.13 Windows
+    ✅ Check the box: "Add Python to PATH" during installation.
+
+2️⃣ Install Virtual Environment
+    pip install virtualenv
+
+3️⃣ Create a Virtual Environment for AutoPilot Video Studio
+    python -m venv APVS
+
+4️⃣ Activate the Virtual Environment
+    APVS\Scripts\activate
+
+
+5️⃣ Install All Required Dependencies
+    pip install -r requirements.txt
+
+
+🔥 Bonus: Keep Multiple Python Versions
+If you need Python 3.13 for other projects, you can use Pyenv or Anaconda to switch between versions.
+
+Install Pyenv (Windows)
+iwr -useb https://pyenv.run | Invoke-Expression
+Then, install multiple Python versions:
+pyenv install 3.10.13
+pyenv install 3.13
+pyenv global 3.10.13  # Switch to 3.10
+
+🔥 TL;DR: Install Python 3.10.13
+Best compatibility with AI tools.
+No weird errors with missing dependencies.
+Easy CUDA/GPU acceleration for AI video editing.
